@@ -56,6 +56,8 @@ for epoch in range(num_epoch):
         in_data = in_data.cuda()
         out_data = out_data.cuda()
 
+    # Hieu bip bom
+
     # Train model
     model.train()
     out_data = model(in_data)
